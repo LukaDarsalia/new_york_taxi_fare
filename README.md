@@ -40,7 +40,7 @@ We experimented with different models, including:
 To run this project, follow these steps:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/nyc-taxi-fare-prediction.git
+    git clone https://github.com/LukaDarsalia/new_york_taxi_fare.git
     ```
 2. Install the required dependencies:
     ```bash
@@ -50,6 +50,9 @@ To run this project, follow these steps:
     ```bash
     jupyter notebook new-york-taxi-fare.ipynb
     ```
+
+## Kaggle Notebook
+You can view the full notebook on Kaggle [here](https://www.kaggle.com/code/lukadarsalia/new-york-taxi-fare/notebook).
 
 ## Conclusion
 This project demonstrates the application of various machine learning models to the task of taxi fare prediction. XGBoost provided the best results, while neural network models with attention mechanisms showed potential for further improvement with more tuning and experimentation. Tree-based models (XGBoost and Random Forests) outperformed linear regression and attention-based models.
